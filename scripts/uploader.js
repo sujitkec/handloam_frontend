@@ -7,7 +7,7 @@ form.addEventListener("submit", (e) => {
     const formData = new FormData();
     formData.append("title", name.value);
     formData.append("input_image", files.files[0]);
-    fetch("http://localhost:8089/image", {
+    fetch("https://handloam.onrender.com/image", {
         method: 'POST',
         body: formData,
     })
