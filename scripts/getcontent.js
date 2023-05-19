@@ -1,6 +1,6 @@
 const content = document.getElementById('content')
 
-fetch("https://handloam.onrender.com/getsamples")
+fetch("http://localhost:8089/getsamples")
     .then(res => res.json())
     .then(res => {
         for (r of res) {
