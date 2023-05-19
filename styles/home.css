@@ -1,0 +1,28 @@
+body {
+    background-color: slategray;
+}
+
+.heading {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.sample {
+    background-color: white;
+    padding: 1rem;
+    margin: 1rem;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.img {
+    height: 250px;
+    width: 250px;
+    object-fit: contain;
+}
+
